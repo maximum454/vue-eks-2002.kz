@@ -40,4 +40,8 @@ jobs:
             username: ${{ secrets.FTP_USERNAME }}
             password: ${{ secrets.FTP_PASSWORD }}
             server-dir: /vue-eks-2002/public_html/
-            localDir: "dist"
+            local-dir: /dist/
+            exclude: |
+              **/.git*
+              **/.git*/**
+              **/node_modules/**
