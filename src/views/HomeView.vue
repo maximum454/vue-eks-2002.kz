@@ -6,7 +6,5 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <TheWelcome />
 
-	  1dsfdsfdf
-	  2222222
   </main>
 </template>
