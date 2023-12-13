@@ -39,5 +39,5 @@ jobs:
             server: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.FTP_USERNAME }}
             password: ${{ secrets.FTP_PASSWORD }}
-            server-dir: /vue-eks-2002/public_html/
+            remoteDir: "/vue-eks-2002/public_html/"
             localDir: "dist"
