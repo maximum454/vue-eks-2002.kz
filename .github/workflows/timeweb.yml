@@ -34,7 +34,7 @@ jobs:
         run: npm run build
 
       - name: Отправляем на хостинг
-        uses: GenieTim/ftp-action@v4.0.1
+        uses: sebastianpopp/ftp-action@releases/v2
         with:
             server: ${{ secrets.FTP_SERVER }}
             username: ${{ secrets.FTP_USERNAME }}
